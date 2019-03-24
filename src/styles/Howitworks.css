@@ -1,0 +1,9 @@
+#rowOne h3 {
+    font-size: 30px;
+}
+#rowTwo .container {
+    width: 90%;
+}
+#rowTwo .card {
+    height: 600px;
+}

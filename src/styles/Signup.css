@@ -1,0 +1,26 @@
+#login {
+    background-image: url("../images/Background3.jpg");
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+    background-size: cover;
+    /* background-color: #1e272e; */
+    color: #E0DFDF;
+    margin: 0px;
+}
+#login .btn {
+    color: #1e272e;
+    background-color: #dfe6e9;
+    width: 150px;
+}
+#localicon {
+    color: #dfe6e9;
+}
+#forwardicon {
+    color: #1e272e;
+}
+#login input {
+    color: #dfe6e9;
+}
+/* #login row {
+    margin: 0px;
+} */

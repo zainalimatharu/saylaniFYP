@@ -1,0 +1,22 @@
+.nav-wrapper {
+    background-color: #1e272e;
+}
+.common b {
+    font-size: 16px;
+    color: #dfe6e9;
+}
+.hide-on-large-only :hover {
+    background-color: #5D7179;
+}
+.material-icons {
+    color: #dfe6e9;
+}
+.hide-on-med-and-down {
+    margin-right: 70px;
+}
+.brand-logo {
+    margin-left: 70px
+}
+.brand-logo b {
+    color: #dfe6e9;
+}
