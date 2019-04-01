@@ -1,0 +1,16 @@
+#std h3 {
+    padding: 30px 0px 30px 0px;
+    border: 1px solid #1e272e;
+    background-color: #dfe6e9;
+    color: #1e272e;
+}
+#std :hover {
+    background-color: #1e272e;
+    color: #dfe6e9;
+}
+#std h3 :hover {
+    border-left: 3px solid #dfe6e9;
+}
+#one {
+    border-right: 1px solid #1e272e;
+}

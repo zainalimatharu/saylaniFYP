@@ -1,0 +1,116 @@
+#welcome {
+    background-image: url("../images/Academiesportal1.jpg");
+    height: 73vh;
+    color: white;
+    margin: 0px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#welcome h2 {
+    margin: 0px;
+    padding-top: 140px;
+    font-weight: 200;
+}
+#welcome p {
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 8px;
+}
+#welcome #course {
+    margin-top: 42px;
+    background-color: #D83B01;
+    height: 48px;
+    /* border: 1px solid white; */
+}
+
+#welcome #tttr {
+    margin-top: 42px;
+    background-color: white;
+    color: #D83B01;
+    height: 48px;
+    /* border: 1px solid #D83B01; */
+}
+#largeonly #course {
+    margin-top: 42px;
+    background-color: #D83B01;
+    height: 48px;
+    /* border: 1px solid white; */
+}
+
+#largeonly #tttr {
+    margin-top: 42px;
+    background-color: white;
+    color: #D83B01;
+    height: 48px;
+    border: 1px solid #D83B01;
+}
+#course h6 {
+    color: white;
+}
+
+#tttr h6 {
+    color: #D83B01;
+}
+#btttn a {
+    margin-top: -24px;
+}
+#btttn i {
+    background-color: #D83B01;
+}
+html {
+    scroll-behavior: smooth;
+}
+#middlepart {
+    background-color: #DADDE1;
+    padding-bottom: 20px;
+}
+#middlepart .container {
+    width: 94%
+}
+#searchbtn a {
+    margin-top: 22px;
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+#searchbtn :hover {
+    background-color: #DADDE1;
+}
+#searchbar input {
+    margin-top: 20px;
+    width: 100%;
+    height: 5.5vh;
+    border: 1px solid #D83B01;
+    border-radius: 20px 0px 0px 20px;
+}
+#searchbar input[type=text]:focus {
+    border: none;
+    border-radius: 0px;
+}
+#searchbar {
+    padding-right: 0px;
+}
+#searchicon {
+    margin-top: 20px;
+    background-color: #D83B01;
+    /* color: white; */
+    border-radius: 0px 20px 20px 0px;
+}
+#searchicon i {
+    padding-top: 5px;
+    height: 5vh;
+    /* margin-left: 5px; */
+    color: white;
+}
+#rightpart {
+    margin: 0px;
+}
+#headingofsearch p {
+    font-size: 1.5rem;
+}
+#headingofsearch label {
+    font-size: 1rem;
+}

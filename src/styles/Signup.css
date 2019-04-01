@@ -1,26 +1,47 @@
-#login {
-    background-image: url("../images/Background3.jpg");
-    background-repeat: no-repeat;
-    /* height: 100vh; */
-    background-size: cover;
-    /* background-color: #1e272e; */
-    color: #E0DFDF;
+#signup {
+    background-color: #DADDE1;
+    height: 90vh;
     margin: 0px;
 }
-#login .btn {
-    color: #1e272e;
-    background-color: #dfe6e9;
-    width: 150px;
+#signupleft {
+    margin-top: 130px;
+    padding: 0px;
 }
-#localicon {
-    color: #dfe6e9;
+#signupleft .l6 {
+    background-color: white;
 }
-#forwardicon {
-    color: #1e272e;
+#signupleft h3 {
+    padding: 30px 0px 30px 0px;
 }
-#login input {
-    color: #dfe6e9;
+#signupleft .l6 p {
+    margin-bottom: 30px;
 }
-/* #login row {
-    margin: 0px;
-} */
+#signupright {
+    margin-top: 75px;
+    padding: 0px;
+}
+#signupright .l6 {
+    background-color: #474A59;
+}
+#signupright .s11 {
+    padding-right: 30px;
+}
+#signupform {
+    margin: 35px 0px 0px 0px;
+    padding-bottom: 20px;
+}
+#signupform input {
+    height: 30px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #343742;
+    border: 0px solid;
+    color: white;
+    margin-bottom: 25px;
+}
+*:focus {
+    outline: none;
+}
+#signuplink {
+    cursor: pointer;
+}

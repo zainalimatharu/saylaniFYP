@@ -1,61 +1,33 @@
 import React, { Component } from 'react';
 import '../styles/Signup.css';
+import { NavLink } from 'react-router-dom';
 
 class Signup extends Component {
     state = {  }
     render() { 
         return (
-            <div className="row" id="login">
-                <div class="col s6 offset-s5">
-                    <div className="container">
-                        <div class="row" style={{margin:"0px"}}>
-                            <div>
-                                <h3 className="center-align">Sign Up</h3>
-                                <h6 className="center-align">With your Zau Account</h6>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <form className="col s12">
-                                <div class="row" style={{margin:"0px"}}>
-                                    <div class="input-field col s12 offset-s0">
-                                        <i class="material-icons prefix" id="localicon">account_circle</i>
-                                        <input id="icon_prefix" type="text" class="validate" />
-                                        <label for="icon_prefix">User Name</label>
-                                    </div>
-                                </div>
-                                <div class="row" style={{margin:"0px"}}>
-                                    <div class="input-field col s12 offset-s0">
-                                        <i class="material-icons prefix" id="localicon">email</i>
-                                        <input id="icon_Email" type="tel" class="validate" />
-                                        <label for="icon_Email">Email</label>
-                                    </div>
-                                </div>
-                                <div class="row" style={{margin:"0px"}}>
-                                    <div class="input-field col s12 offset-s0">
-                                        <i class="material-icons prefix" id="localicon">fingerprint</i>
-                                        <input id="icon_Email" type="password" class="validate" />
-                                        <label for="icon_Email">Password</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <select class="browser-default">
-                                        <option value="" disabled selected>Sign Up As...</option>
-                                        <option value="1">Student</option>
-                                        <option value="2">Tutor</option>
-                                        <option value="3">Parents</option>
-                                        <option value="4">Institute</option>
-                                    </select>
-                                </div>
-                                <div class="row">
-                                    <div class="col s8 m6 l4 offset-l5 offset-m4 offset-s3">
-                                        <a class="waves-effect waves-light btn z-depth-0"><b>Ok Sign Up</b></a>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col s8 m6 l4 offset-l5 offset-m4 offset-s3">
-                                        <b>Already have account ?</b>
-                                    </div>
-                                </div>
+            <div className="row" id="signup">
+                <div className="col s12 m12 l6" id="signupleft">
+                    <div className="col s12 m12 l6 offset-l6">
+                        <h3 className="center-align"><b>Sign Up</b></h3>
+                        <p className="center-align">Register here.
+                                =>Find the best Tutor for you.
+                                =>Find Tutions for you.
+                                =>Publish your courses offered by you institute.
+                        </p>
+                    </div>
+                </div>
+                <div className="col s12 m12 l6" id="signupright">
+                    <div className="col s12 m12 l6">
+                        <div className="col s11 offset-s1">
+                            <form action="#" id="signupform">
+                                <label htmlFor="signupname">Name:</label><br/>
+                                <input className="browser-default" type="text" name="name" id="signupname"/>
+                                <label htmlFor="signupemail">Email:</label><br/>
+                                <input className="browser-default" type="email" name="email" id="signupemail"/>
+                                <label htmlFor="signuppassword">Password:</label><br/>
+                                <input className="browser-default" type="password" name="password" id="signuppassword"/><br/><br/>
+                                <NavLink to="/"><input id="signuplink" type="submit" value="Sign Up" /></NavLink>
                             </form>
                         </div>
                     </div>
